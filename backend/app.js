@@ -49,6 +49,10 @@ router.post("/send/mail", async (req, res, next) => {
   }
 });
 
+app.get("/", (req, res) => {
+    res.send("Gym Website Backend Running 🚀");
+  });
+
 app.use(router);
 
 app.listen(process.env.PORT, () => {
