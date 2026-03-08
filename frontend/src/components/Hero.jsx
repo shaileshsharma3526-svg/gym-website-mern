@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="title">
           <h1>LET'S</h1>
           <h1>GET</h1>
-          <h1>MOVING</h1>
+          <h1>STARTED</h1>
         </div>
         <div className="sub-title">
           <p>Your Journey to Fitness Starts Here</p>
